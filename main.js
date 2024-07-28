@@ -6,6 +6,7 @@ const textInputElement = document.getElementById("text-input");
 
 let tasks = [];
 
+
 const fetchAndRenderTasks = () => {
    getTodos().then((responseData) => {
       tasks = responseData.todos;
